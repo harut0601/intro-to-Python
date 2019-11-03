@@ -16,17 +16,21 @@ print(a_sorted[2:6])
 print(a_sorted)
 a_sorted.pop(3)
 a_sorted.pop(2)
-print(a_sorted)
 
 #Problem6
-b = ["grapes", "Potatoes","tomatoes", "Orange", "Lemon", "Broccoli", "Carrot", "Sausages"]
+print(a_sorted)
 
 #Problem7
+b = ["grapes", "Potatoes","tomatoes", "Orange", "Lemon", "Broccoli", "Carrot", "Sausages"]
+
+#Problem8
 b_sorted = b.copy()
 b_sorted.sort()
 print(b_sorted)
 
-#Problem8
+#Problem9
 c_first = a[0:2]
 c_second = b[3:6]
+
+#Problem10
 print(c_first + c_second)
