@@ -1,0 +1,13 @@
+import argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("set3")
+
+set2 = {"pig", "cow", "horse", "dog"}
+
+args = parser.parse_args()
+
+new_set = set2.copy()
+new_set.remove(args.set3)
+print(f"old set: {set2}")
