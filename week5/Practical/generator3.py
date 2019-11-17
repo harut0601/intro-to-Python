@@ -1,7 +1,9 @@
 def power(max):
-    b = yield(max)
-    next(max)
-    2 ** b
+    result = []
+    for element in range(1, max+1):
+        result.append(2**element)
+    return result
 
 
-power(5)
+new = power(10)
+print(new)

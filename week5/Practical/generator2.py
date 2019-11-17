@@ -1,6 +1,15 @@
 def iter_num(n):
-    for element in n:
-        yield(element)
+    c = 0
+    while c < n/2 + 1:
+        for element in range(1, n+1):
+            print(element)
+            yield(element)
+            c += 1
 
 
-iter_num(10)
+a = iter_num(10)
+c = 0
+
+while c < 1:
+    next(a)
+    c += 1
